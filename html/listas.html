@@ -1,0 +1,208 @@
+<html> 
+     <!--
+        Elaborado por: Carrera Ramírez Estefania Rebeca 
+        Fecha: 02-02-2025 
+    -->
+    <head>
+        <title>Listas en html</title>
+        <style type="text/css">
+            
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header, main, nav, footer{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                width: 1200px;
+                height: 100px;
+                background-color: green;
+                color: aliceblue;
+                padding: 30px;
+            }
+            nav{
+                width: 1200px;
+                height: 50px;
+                background-color: darkseagreen;
+                padding: 30px;
+            }
+            main{
+                width: 1200px;
+                height: 2510px;
+                padding: 30px;
+                background-color: seagreen;
+            }
+            section{
+                width: 1100px;
+                height: auto;
+                background-color: lightgreen;
+                margin: 30px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto; 
+            }
+    
+            footer{
+                width: 1200px;
+                height: 50px;
+                padding: 30px;
+                background-color: green;
+                color: aliceblue; 
+            } 
+            header h1,footer h6{
+                text-align: center;
+            }
+            footer h6{font-size: 16px;
+            }
+            header h1{font-size: 70px;
+            }
+            h2{
+                margin-bottom: 20px;
+            }
+            nav ul{
+                text-align: center;   
+            }
+            nav ul li{
+                width: auto;
+                height: 20px;
+                background-color: palegreen;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                list-style-type: none;
+                display: inline-block;
+                padding: 20px;
+            }
+            section ul, section ol, section dt{
+                margin-left: 25px;
+                margin-top: 8px;
+            }
+            section dd{
+                margin-left: 40px;
+                margin-top: 8px;
+            }
+            #vineta{
+                padding: 50px;
+                list-style-image: url(../imagenes/azteca.png);
+            }
+        </style>
+    </head> 
+    <body>
+        <header>
+            <h1>LISTAS HTML</h1> 
+        </header>
+         <nav>
+         <ul>
+             <li>Litsta desordenada</li>
+             <li>Lista ordenada</li>
+             <li>Lista mixta</li>
+             <li>Lista de descripcion</li>
+         </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Lista desordenada</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat luctus sapien eget elementum. Donec posuere quis ex nec mattis. Suspendisse vehicula ex in libero consectetur sagittis. Aliquam erat volutpat. Nam sodales odio sollicitudin placerat iaculis. Nam mattis purus vitae tristique tincidunt. Etiam et tortor eget erat egestas dignissim vel et augue. Quisque aliquam tellus nisi, eget mattis nibh eleifend ac. Morbi fermentum ipsum bibendum, accumsan mauris elementum, pharetra justo. Vestibulum efficitur iaculis neque. Aenean magna urna, posuere vel justo elementum, vehicula egestas nulla. Nam congue egestas justo, sed pretium turpis lobortis ac. Donec ornare lobortis elit ut rhoncus. Donec.</p>
+                <ul>
+                    <li>Argentina</li>
+                    <li>Colombia</li>
+                    <li>España</li>
+                    <li>Filandia</li>
+                    <li>Lituania</li>
+                    <li>México</li>
+                    <li>Rusia</li>
+                    <li>Italia</li>
+                    <li>Francia</li>
+                    <li>Estados Unidos</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Lista ordenada</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet nulla erat, non aliquet libero lacinia ut. Integer tempor et odio vitae rutrum. In hac habitasse platea dictumst. Aliquam congue condimentum commodo. Quisque vestibulum cursus ipsum ac tempus. Aenean faucibus massa mi, non ultricies nunc mattis vel. Aliquam mauris dui, commodo at nibh in, commodo dictum felis. Mauris eget egestas.</p>
+                <ol> 
+                    <li>Aguascalientes</li>
+                    <li>Baja California</li>
+                    <li>Colima</li>
+                    <li>Veracruz</li>
+                    <li>Puebla</li>
+                    <li>Jalisco</li>
+                    <li>Michocan</li>
+                    <li>Oaxaca</li>
+                    <li>Quintana Roo</li>
+                    <li>San Luis Potosi</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Lista mixta</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet nulla erat, non aliquet libero lacinia ut. Integer tempor et odio vitae rutrum. In hac habitasse platea dictumst. Aliquam congue condimentum commodo. Quisque vestibulum cursus ipsum ac tempus. Aenean faucibus massa mi, non ultricies nunc mattis vel. Aliquam mauris dui, commodo at nibh in, commodo dictum felis. Mauris eget egestas</p>
+                <ol>
+                    <li>Acajete</li>
+                    <li>Atlixco</li>
+                        <ul>
+                            <li>El carmen</li>
+                            <li>El encanto</li>
+                            <li>Huerta de San Jose</li>
+                            <li>Las calandrias</li>
+                            <li>Lomas de Axocopan</li>
+                        </ul>
+                    <li>Izucar de Matamoros</li>
+                    <li>Cholula</li> 
+                        <ul>
+                            <li>Camino Real</li>
+                            <li>Cipres de Santiago</li>
+                            <li>Cholula de Rivadavia</li>
+                            <li>Jardines del Rosal</li>
+                            <li>Momoxpan</li>
+                        </ul>
+                    <li>Chignahuapan</li>
+                    <li>Zacatlan</li>
+                    <li>Puebla
+                        <ul>
+                            <li>San Manuel</li>
+                            <li>Universidades</li>
+                            <li>Amalucan</li>
+                            <li>San Ramon</li>
+                            <li>Granjas de San Isidro</li>
+                            <li>San Baltazar Campeche</li>
+                        </ul>
+                    </li>
+                    <li>Cuahtlazingo</li>
+                    <li>Tepeji de Rodriguez</li>
+                    <li>Huachinango</li>
+                </ol> 
+            </section>
+            <section> 
+                <h2>Listas de descripcion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu velit tortor. Ut sagittis tempus elit, laoreet cursus arcu pharetra id. Aenean eleifend est id cursus porta. Maecenas sit amet posuere nisl. Phasellus sagittis ornare velit, ullamcorper tristique nisi finibus a. In non sollicitudin ipsum. Duis id ligula elementum, cursus.</p>
+                <dl>
+                    <dt>Pais</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non pulvinar augue. Fusce nec rutrum tortor. Mauris pulvinar dapibus mi eget sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi quis ex consequat, convallis ex non, interdum erat. Curabitur tristique tristique nisl, vel venenatis.</dd>
+                    <dt>Estado</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero nibh. Morbi ut elit sed mi tempor placerat vel fringilla tellus. Etiam et leo semper, venenatis tellus vel, molestie.</dd>
+                    <dt>Municipio</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non pulvinar augue. Fusce nec rutrum tortor. Mauris pulvinar dapibus mi eget sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi quis ex consequat, convallis ex non, interdum erat. Curabitur tristique tristique nisl, vel venenatis.</dd>
+                    <dt>Colonia</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu libero nibh. Morbi ut elit sed mi tempor placerat vel fringilla tellus. Etiam et leo semper, venenatis tellus vel, molestie.</dd>
+                </dl>
+            </section>
+            <section> 
+                <h2>Listas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu velit tortor. Ut sagittis tempus elit, laoreet cursus arcu pharetra id. Aenean eleifend est id cursus porta. Maecenas sit amet posuere nisl. Phasellus sagittis ornare velit, ullamcorper tristique nisi finibus a. In non sollicitudin ipsum. Duis id ligula elementum, cursus.</p>
+                <ul id="vineta">
+                    <li>Elemento de lista con imagen</li>
+                    <li>Elemento de lista con imagen</li>
+                    <li>Elemento de lista con imagen</li>
+                    <li>Elemento de lista con imagen</li>
+                    <li>Elemento de lista con imagen</li>
+                    <li>Elemento de lista con imagen</li>       
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Estefania Rebeca Carrera Ramirez</h6>
+            
+        </footer>
+    </body>
+</html>

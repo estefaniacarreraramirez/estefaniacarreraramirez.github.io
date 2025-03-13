@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+header,nav,footer,main{
+    width: 100%;
+    background-color: #3D8D7A;
+    color: #FBFFE4;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav{
+    height: auto;
+    background-color: #B3D8A8;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 120px;
+    list-style-type: none;
+    background-color: #FBFFE4;
+    color: #3D8D7A;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+nav ul li a:link, nav ul li:visited{
+    color: #A3D1C6;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: beige;
+}
+nav ul li:hover{
+    background-color: darkslategrey;
+    width: 95px;
+    font-size: 18px;
+}
+main{
+    height: auto;
+    background-color: #FBFFE4;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #A3D1C6;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+section p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2, p{
+    margin-bottom: 30px;
+}
+h2{
+    color: darkslategrey;
+}
+table_1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#tabla_1 th, #tabla_2 th, #tabla_3 th{
+    background-color: darkslategray;
+}
+#tabla_1 td{
+    background-color: slategray;
+}
+#tabla_2{
+    width: 100%;
+    /*border-style: solid;
+    border-color: yellow;
+    border: 5px;*/
+    border: 5px solid yellow;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+tabla_2 th, #tabla_2 td{
+    border: 3px solid yellow;
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color: brown;
+}
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: forestgreen;
+}
+#tabla_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B3D8A8;
+    border-collapse: collapse;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 td{
+    height: 50px;
+    padding-left: 10px;
+}
+#tabla_3 th, #tabla_3 td{
+    border: 2px solid darkslategray;
+}
+#tabla_3 tr:hover{
+    background-color: yellow;
+    color: darkslategray;
+}
+header h1{
+   font-family: "Libre Baskerville", serif;
+   font-size: 68px;
+   letter-spacing: 20px;
+}
+h1, h6{
+    text-align: center;
+    font-size: 48px;
+}
+h6{
+    font-size: 18px;
+}
+main section img{
+    width: 40%;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+imagen-borde-redondo{
+     border-radius: 50%;
+}
+.imagenes_box{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.imagen_flotante_der{
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.fondo{
+    background-image: url(../imagenes/sea-7779617_640.png);
+    background-size: cover;
+}
+.section_filtros{
+    color: darkblue;
+    text-align: center;
+}
+.section_filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color:beige;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=text],input[type=password],textarea,select{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: darkcyan;
+}
+input[type=email]{
+     width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: darkcyan;
+}
+input[type=email]:focus{
+    color: beige;
+    background-color: darkseagreen;
+    border: 3px solid black;
+}
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: beige;
+    color: darkcyan;
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus{
+    color: beige;
+    background-color: darkseagreen;
+    border: 3px solid black;    
+}
+
+.form-register{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top:40px;
+    border-radius: 4px; 
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid black;
+    font-family: "calibri";
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.forms-register .bottons{
+    width: 100%;
+    background-color: darkgreen;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+}
+.behance, .instagram, .facebook{
+    width: 4%;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.imagen_der{
+    width: 20%;
+    float: right;
+    margin-left: 40px;
+    margin-top: 0px;
+    border-radius: 150px;
+}
+.perfil{
+    width: 3%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+
+
+
